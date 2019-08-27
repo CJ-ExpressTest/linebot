@@ -1,10 +1,28 @@
-# linebot
-LineBot
+# php-getting-started
 
-สำหรับไฟล์ bot-checktoken.php, bot.php 
-อ่านได้ตาม ลิงค์นี้นะครับ 
-https://medium.com/@benz20003/chat-bot-%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B9%86-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-line-messaging-api-php-nodejs-heroku-%E0%B9%81%E0%B8%9A%E0%B8%9A-step-by-step-943322819854
+A barebones PHP app that makes use of the [Silex](http://silex.sensiolabs.org/) web framework, which can easily be deployed to Heroku.
 
-สำหรับไฟล์ bot-flex.php
-อ่านได้ตาม ลิงค์นี้นะครับ
-https://medium.com/@benz20003/%E0%B8%A1%E0%B8%B2%E0%B8%97%E0%B8%B3%E0%B9%83%E0%B8%AB%E0%B9%89-line-%E0%B8%A1%E0%B8%B5%E0%B8%A1%E0%B8%B2%E0%B8%81%E0%B8%81%E0%B8%A7%E0%B9%88%E0%B8%B2-message-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-flex-message-%E0%B9%81%E0%B8%A5%E0%B8%B0-line-bot-designer-94ab0c3222a9?source=your_stories_page---------------------------
+This application supports the [Getting Started with PHP on Heroku](https://devcenter.heroku.com/articles/getting-started-with-php) article - check it out.
+
+## Deploying
+
+Install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
+
+```sh
+$ git clone git@github.com:heroku/php-getting-started.git # or clone your own fork
+$ cd php-getting-started
+$ heroku create
+$ git push heroku master
+$ heroku open
+```
+
+or
+
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
+## Documentation
+
+For more information about using PHP on Heroku, see these Dev Center articles:
+
+- [Getting Started with PHP on Heroku](https://devcenter.heroku.com/articles/getting-started-with-php)
+- [PHP on Heroku](https://devcenter.heroku.com/categories/php)
